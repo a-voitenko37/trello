@@ -1,0 +1,33 @@
+@import '../../../../css/const.scss';
+.list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  background-color: $third-color;
+  border-radius: $m-b-radius;
+
+  width: 20%;
+  padding: 0 $m-indents $m-indents $m-indents;
+}
+
+.list-element {
+  background-color: $fourth-color;
+}
+
+.list-header {
+  text-align: center;
+}
+
+.add-list-btn {
+  position: absolute;
+  bottom: 0;
+
+  border: 0;
+  border-radius: $m-b-radius;
+  background-color: $fourth-color;
+}
+
+// .list-container {
+//   padding: 0 $m-indents 0 $m-indents;
+// }

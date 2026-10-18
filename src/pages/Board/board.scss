@@ -1,0 +1,28 @@
+@import '../../css/const.scss';
+
+.board {
+  padding: 0 $m-indents $s-indents $m-indents;
+  margin: auto;
+  width: 75%;
+
+  background-color: $main-color;
+  border-radius: $m-b-radius;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.board-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-bottom: $m-indents;
+}
+
+.add-board-btn {
+  width: $m-btn-width;
+  height: $m-btn-height;
+  border-radius: $m-b-radius;
+  border: 0;
+}

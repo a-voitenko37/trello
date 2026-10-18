@@ -1,0 +1,9 @@
+@import '../../../../css/const.scss';
+
+.card {
+  margin-bottom: $m-indents;
+  background-color: $fourth-color;
+
+  border-radius: $m-b-radius;
+  text-align: center;
+}
