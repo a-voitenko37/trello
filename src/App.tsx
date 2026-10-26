@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import { Board } from './pages/Board/Board';
+import { Home } from './pages/Home/Home';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/board" element={<Board />}></Route>
+        <Route path='/board' element={<Board />}></Route>
+        <Route path='/' element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
 
